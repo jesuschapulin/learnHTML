@@ -6,6 +6,10 @@ proyecto para poner en practica conocimientos basicos de desarrollo web
 ### agregar los datos de la cuenta de git para subir cambios (solo se hace una vez)
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
+## mostrar las branchs
+git branch
+## cambiar de branch
+git checkout "nombre de la branch"
 ### bajar cambios antes de agregar commit
 git pull
 ### Agrega todos los cambios al commit (si no se desea subir todo se especifican los archivos)
