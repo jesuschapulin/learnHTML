@@ -3,6 +3,9 @@ proyecto para poner en practica conocimientos basicos de desarrollo web
 ############################################################
 ############################################################
 ######################## uso de github #####################
+### agregar los datos de la cuenta de git para subir cambios (solo se hace una vez)
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
 ### bajar cambios antes de agregar commit
 git pull
 ### Agrega todos los cambios al commit (si no se desea subir todo se especifican los archivos)
