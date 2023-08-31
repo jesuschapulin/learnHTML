@@ -1,0 +1,6 @@
+{
+    "boxesContainers": {
+        "leftDesplacing": "<div><h2>from left</h2></div>",
+        "upDesplacing": "<div><h2>from rigth</h2></div>"
+    }
+}

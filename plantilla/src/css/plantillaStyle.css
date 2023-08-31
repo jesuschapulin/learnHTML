@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+/*-----------------------------------------------------------movil-------------------------------------------------------------*/
+
+:root {
+  --spacing-unit: 10px;
+  --margin: 80px;
+  --padding: calc(0.1 * var(--spacing-unit))
+}
+/* apply a natural box layout model to all elements, but allowing components to change */
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+.formFL{
+  width: 300px;
+    display: flex;
+}
+.container{
+  position: absolute;
+  max-width: 100%;
+  padding: 0;
+}
+.parallax-parent{
+  width: 100%;
+  height: 40vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.containerG{
+      position: relative;
+}
+.wall-img{
+position: absolute;
+    width: 100%;
+    height: 100%;   
+    background-image: url('/redalyc/htdocs/plantilla/src/img/wallpapers/3142776.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax2{
+    background-image: url('/redalyc/htdocs/plantilla/src/img/wallpapers/3142740.jpg');
+}
+.parallax3{
+    background-image: url('/redalyc/htdocs/plantilla/src/img/wallpapers/road-trip-with-raj-xrCNPGLk1wk-unsplash.jpg');
+}
+.pos-r{
+  position: relative;
+}
+.pos-a{
+  position: absolute;
+}
+.wall-img img{
+
+}
+.page {
+  padding: 0px;
+  width: 100%;
+  height: 20rem;
+  background-color: #1f2d40;
+  color: white;
+  position: relative;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  cursor: pointer;
+}
+.page:active {
+    transform: translateY(0);
+  }
+.slider {
+  display: flex;
+  /*height: 100vh;*/
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  overflow-y: hidden;
+}
+.inactive {
+    /*todo use a js solution for this such as velocity*/
+    pointer-events: none;
+    overflow: hidden;
+  }
+.slide {
+  flex: none;
+  width: 20%;
+  background-color: #999999;
+  position: relative;
+  cursor: pointer;
+  transform: translateX(0);
+  transition-property: opacity, transform;
+  transition-duration: 400ms;
+  transition-timing-function: cubic-bezier(0.390, 0.575, 0.565, 1.000); /* easeOutSine */
+}
+.txt-fch-lh{
+    position: relative;
+    padding: 20% 0 0px 30%;
+}
+.fadeOut {
+    opacity: 0;
+    transition-duration: 600ms;
+  }
+  .animate-out-left {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  .animate-out-right {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+.slide:hover >
+    .slide__text {
+      height: 130px;
+    }
+  }
+.slide:nth-child(even) {
+    background-color: #e9e9e9;
+  }
+  .slide:nth-child(even) > .slide__text {
+      background-color: #c5c5c5;
+      bottom: 0;
+    }
+.slide__text {
+    background-color: #d9d9d9;
+    position: absolute;
+    width: 100%;
+    transition: height 200ms ease;
+    height: 100px;
+    padding: 0;
+ }
+ /*container de puntos importantes*/
+ .container-points{
+    padding: 50px 0 0 0;
+    width: 60%;
+    margin: 0 auto;
+ }
+ .cont-left-point{
+
+ }
+ .cont-point{
+    position: relative;
+    height: 4rem;
+ }
+ .cont-left-point{
+    position: relative;
+    width: 35%;
+ }
+ .cont-right-point{
+
+ }
+ .ln-bl{
+    display: inline-block;
+    vertical-align: middle;
+ }
+ .desc-point{
+ }
+.cont-left-point .img-point-alu{
+    position: absolute;
+    top: -80px;
+    width: 0px;
+ }
+ .loader-point{
+    background-color: grey;
+    height: 5px;
+    width: 100%;
+ }

@@ -30,3 +30,14 @@ git pull origin develop
 git log --oneline
 
 
+
+
+############################################################
+############################################################
+############################################################
+### ejemplo de eventos con javascript
+http://localhost/Develop/learnHTML/plantilla/
+### ejemplo de plantilla creada con bootstrap
+http://localhost/Develop/learnHTML/examples/Logis/
+### ejemplo de uso de jsons con javascrip vanilla (jquery)
+http://localhost/Develop/learnHTML/projects/basics/
