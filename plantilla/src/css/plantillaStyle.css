@@ -34,17 +34,17 @@
 position: absolute;
     width: 100%;
     height: 100%;   
-    background-image: url('/redalyc/htdocs/plantilla/src/img/wallpapers/3142776.jpg');
+    background-image: url('/Develop/learnHTML/plantilla/src/img/wallpapers/3142776.jpg');
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .parallax2{
-    background-image: url('/redalyc/htdocs/plantilla/src/img/wallpapers/3142740.jpg');
+    background-image: url('/Develop/learnHTML/plantilla/src/img/wallpapers/3142740.jpg');
 }
 .parallax3{
-    background-image: url('/redalyc/htdocs/plantilla/src/img/wallpapers/road-trip-with-raj-xrCNPGLk1wk-unsplash.jpg');
+    background-image: url('/Develop/learnHTML/plantilla/src/img/wallpapers/road-trip-with-raj-xrCNPGLk1wk-unsplash.jpg');
 }
 .pos-r{
   position: relative;
