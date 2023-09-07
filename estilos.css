@@ -1,0 +1,85 @@
+ #para1 {color: red;text-align: center;}   
+body{background-color: gray; font-family: sans-serif;}
+h1{ color: blue;}
+p {color: black;}
+
+#parrafo-esp{
+    /*font-size: 1.5em;
+    font-weight: bold;*/
+    color: red;
+}
+
+
+#header-esp{
+    color: blue;
+}
+
+
+
+#Tomato{
+ background-color:Tomato;
+} 
+
+#Orange{
+ background-color:Orange;
+}
+
+#DodgerBlue{
+ background-color:DodgerBlue;
+}
+  
+#MediumSeaGreen{
+ background-color:MediumSeaGreen;
+}    
+    
+
+#Gray{
+ background-color:Gray;
+}
+
+
+#SlateBlue{
+ background-color:SlateBlue;
+}
+
+#Violet{
+    background-color:Violet;
+}
+
+#LightGray{
+    background-color:LightGray;
+
+}
+
+h1{
+    text-align: center;
+}
+
+div h2{
+    color: blue;
+}
+
+
+a, img{
+    display: block;
+}
+
+
+
+a{
+    margin: 50px 20px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: aqua;
+}
+
+img{
+    width: 70%
+    margin: auto;  
+}
+
+
+
